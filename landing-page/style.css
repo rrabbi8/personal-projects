@@ -1,0 +1,154 @@
+body {
+	margin: 0;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+		Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+		sans-serif;
+}
+
+.section-one {
+	background-color: #1f2937;
+	padding-left: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	gap: 100px;
+}
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.left-links {
+	font-size: 18px;
+	color: #f9faf8;
+}
+
+.right-links ul {
+	color: #f9faf8;
+	display: flex;
+	list-style: none;
+	gap: 15px;
+	padding-right: 100px;
+}
+
+.content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 100px;
+	margin-bottom: 100px;
+}
+
+.main-text {
+	font-size: 48px;
+	font-weight: bolder;
+	color: #f9faf8;
+	max-width: 300px;
+	margin-bottom: 20px;
+}
+
+.sub-text {
+	font-size: 18px;
+	color: #f9faf8;
+	max-width: 400px;
+	margin-bottom: 20px;
+}
+
+img {
+	width: 400px;
+	height: auto;
+}
+
+button {
+	color: white;
+	background-color: #3882f6;
+	border: none;
+	width: 100px;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.signup-btn:hover {
+	background-color: #83a7e1;
+}
+
+.tiles {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 70px;
+	padding: 50px;
+	margin-bottom: 50px;
+}
+
+.tiles img {
+	width: 200px;
+	height: 200px;
+	border: 4px solid #3882f6;
+	border-radius: 15px;
+}
+
+.tiles p {
+	text-align: center;
+}
+
+.section-two .text {
+	text-align: center;
+	font-size: 36px;
+	font-weight: bolder;
+	color: #1f2937;
+	margin-top: 50px;
+}
+
+.section-three {
+	background-color: #e5e7eb;
+	color: #1f2937;
+
+	padding: 100px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.section-three .top {
+	font-size: 36px;
+	max-width: 800px;
+	font-weight: lighter;
+	font-style: italic;
+}
+
+.section-three .bottom {
+	margin-top: -25px;
+	margin-left: 430px;
+	font-size: 25px;
+}
+
+.section-four {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 100px;
+	border: 4px solid #3882f6;
+	padding: 50px;
+	margin: 100px 400px;
+	background-color: #3882f6;
+	border-radius: 20px;
+}
+
+.section-four .left-text {
+	color: #f9faf8;
+}
+
+.section-four button {
+	border: 2px solid white;
+}
+
+.footer {
+	background-color: #1f2937;
+	text-align: center;
+	height: 50px;
+}
+
+.footer p {
+	padding: 10px;
+}
