@@ -1,4 +1,4 @@
-!<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="utf-8" />
@@ -6,9 +6,23 @@
 		<meta name="description" content="" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="style.css" />
-		<script src="" async defer></script>
+		<script src="main.js" defer></script>
 	</head>
 	<body>
-		<div class="board" id="board"></div>
+		<div class="board" id="board">
+			<div class="cell" data-cell></div>
+			<div class="cell" data-cell></div>
+			<div class="cell" data-cell></div>
+			<div class="cell" data-cell></div>
+			<div class="cell" data-cell></div>
+			<div class="cell" data-cell></div>
+			<div class="cell" data-cell></div>
+			<div class="cell" data-cell></div>
+			<div class="cell" data-cell></div>
+		</div>
+		<div class="winning-message" id="winningMessage">
+			<div data-winning-message-text>X Wins!</div>
+			<button id="restartButton">Restart</button>
+		</div>
 	</body>
 </html>
