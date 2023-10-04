@@ -81,9 +81,7 @@ function endGame(draw) {
 		winningMessageTExtElement.innerText = `Draw!`;
 		winningMessageElement.classList.add("show");
 	} else {
-		winningMessageTExtElement.innerText = `${
-			circleTurn ? "O's" : "X's"
-		} Wins!`;
+		winningMessageTExtElement.innerText = `${circleTurn ? "O" : "X"} Wins!`;
 		winningMessageElement.classList.add("show");
 	}
 }
