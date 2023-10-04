@@ -17,4 +17,4 @@
 |**Admin Dashboard**| Grid|[Link](https://github.com/rrabbi8/personal-projects/tree/main/admin-dashboard)     |   [Demo](https://rrabbi8.github.io/personal-projects/admin-dashboard/index.html)
 |**Library**| Objects and Object constructors, OOP|[Link](https://github.com/rrabbi8/personal-projects/tree/main/library)     |   [Demo](https://rrabbi8.github.io/personal-projects/library/index.html)
 |**Seek Movies**| Asynchronous JavaScript and APIs|[Link](https://github.com/rrabbi8/personal-projects/tree/main/seek-movies)     |   [Demo](https://rrabbi8.github.io/personal-projects/seek-movies/index.html)
-|**Tic Tac Toe (1v1)**| Factory functions and module patterns|[Link](https://github.com/rrabbi8/personal-projects/tree/main/tic-tac-toe)     |   [Demo (https://rrabbi8.github.io/personal-projects/tic-tac-toe/index.html)
+|**Tic Tac Toe (1v1)**| Factory functions and module patterns|[Link](https://github.com/rrabbi8/personal-projects/tree/main/tic-tac-toe)     |   [Demo](https://rrabbi8.github.io/personal-projects/tic-tac-toe/index.html)
