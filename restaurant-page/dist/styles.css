@@ -1,0 +1,232 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+body {
+	line-height: 1;
+	background-image: url("https://media3.s-nbcnews.com/i/newscms/2020_20/3346231/200512-ants-main-cover-cs-915a_ea63937b768e9d7551cf98d848c970a8.jpg");
+	margin: 0;
+	padding: 0;
+	min-height: 100vh; /* Set the minimum height of the body to 100% of the viewport height */
+	display: flex;
+	flex-direction: column;
+}
+ol,
+ul {
+	list-style: none;
+}
+blockquote,
+q {
+	quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: "";
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+#nav-bar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100vw;
+	height: 7vh;
+	background-color: black;
+}
+
+.nav-button {
+	height: 5vh;
+	width: 12vh;
+	margin-right: 2vh;
+}
+
+#content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	flex: 1;
+}
+
+#about {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin-top: 10vh;
+	height: 70vh;
+	width: 70vh;
+	background-color: orange;
+}
+
+#about-header {
+	font-size: 10vh;
+}
+
+#about-text {
+	font-size: 3vh;
+	margin-top: 7vh;
+}
+
+#ant-img {
+	height: 6vh;
+	margin-left: 3vh;
+}
+
+#menu {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	height: 70vh;
+	width: 80vw;
+	background-color: orange;
+	margin-top: 6vh;
+}
+
+.menu-item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 2vh;
+	height: 40%;
+	width: 30%;
+	background-color: yellow;
+}
+
+.menu-img {
+	margin-top: 2vh;
+	height: 15vh;
+	width: 15vh;
+}
+
+.menu-description {
+	margin-top: 3vh;
+	font-size: 5vh;
+}
+
+#contact-div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: orange;
+	margin-top: 30vh;
+}
+
+#contact-header {
+	margin-top: 5vh;
+	font-size: 10vh;
+}
+
+#contact-para {
+	margin-top: 6vh;
+	font-size: 3vh;
+}
+
+.footer {
+	background-color: black;
+	color: #fff;
+	text-align: center;
+	padding: 10px;
+}
