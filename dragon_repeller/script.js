@@ -219,6 +219,7 @@ function attack() {
 	monsterHealthText.innerText = monsterHealth;
 
 	if (health <= 0) {
+		health = 0;
 		lose();
 	} else if (monsterHealth <= 0) {
 		fighting === 2 ? winGame() : defeatMonster();
